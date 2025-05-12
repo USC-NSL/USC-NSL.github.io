@@ -1,18 +1,41 @@
-@inproceedings{namyar2025mitigation,
-  title={Enhancing Network Failure Mitigation with Performance-Aware Ranking},
-  author={Namyar, Pooria and Ghavidel, Arvin and Crankshaw, Daniel and Berger, Daniel S and Hsieh, Kevin and Kandula, Srikanth and Govindan, Ramesh and Arzani, Behnaz},
-  booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+@inproceedings{liang2025granular,
+  title={Granular Resource Demand Heterogeneity},
+  author={Liang, Yizhuo and Govindan, Ramesh and Park, Seo Jin},
+  booktitle={Proceedings of the 20th Workshop on Hot Topics in Operating Systems},
   year={2025},
-  abbr={NSDI},
+  abbr={HotOS},
   selected = {yes},
 }
 
-@inproceedings{alcoz2025packs,
-  title={Everything Matters in Programmable Packet Scheduling},
-  author={Alcoz, Albert Gran and Vass, Balázs and Namyar, Pooria and Arzani, Behnaz and Rétvári, Gábor and Vanbever, Laurent},
+@inproceedings{namyar2025mitigation,
+  author = {Pooria Namyar and Arvin Ghavidel and Daniel Crankshaw and Daniel S. Berger and Kevin Hsieh and Srikanth Kandula and Ramesh Govindan and Behnaz Arzani},
+  title = {Enhancing Network Failure Mitigation with {Performance-Aware} Ranking},
   booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
-  year={2025},
+  year = {2025},
+  isbn = {978-1-939133-46-5},
+  address = {Philadelphia, PA},
+  pages = {335--357},
+  url = {https://www.usenix.org/conference/nsdi25/presentation/namyar},
+  publisher = {USENIX Association},
+  month = apr,
   abbr={NSDI},
+  selected = {yes},
+  abstract={Cloud providers install mitigations to reduce the impact of network failures within their datacenters. Existing network mitigation systems rely on simple local criteria or global proxy metrics to determine the best action. In this paper, we show that we can support a broader range of actions and select more effective mitigations by directly optimizing end-to-end flow-level metrics and analyzing actions holistically. To achieve this, we develop novel techniques to quickly estimate the impact of different mitigations and rank them with high fidelity. Our results on incidents from a large cloud provider show orders of magnitude improvements in flow completion time and throughput. We also show our approach scales to large datacenters.}
+}
+
+@inproceedings{alcoz2025packs,
+  author = {Albert Gran Alcoz and Bal{\'a}zs Vass and Pooria Namyar and Behnaz Arzani and Gabor Retvari and Laurent Vanbever},
+  title = {Everything Matters in Programmable Packet Scheduling},
+  booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+  year = {2025},
+  isbn = {978-1-939133-46-5},
+  address = {Philadelphia, PA},
+  pages = {1467--1485},
+  url = {https://www.usenix.org/conference/nsdi25/presentation/alcoz},
+  publisher = {USENIX Association},
+  month = apr,
+  abbr={NSDI},
+  abstract={Operators can deploy any scheduler they desire on existing switches through programmable packet schedulers: they tag packets with ranks (which indicate their priority) and schedule them in the order of these ranks. The ideal programmable scheduler is the Push-In First-Out (PIFO) queue, which schedules packets in a perfectly sorted order by “pushing” packets into any position of the queue based on their ranks. However, it is hard to implement PIFO queues in hardware due to their need to sort packets at line rate (based on their ranks). Recent proposals approximate PIFO behaviors on existing data-planes. While promising, they fail to simultaneously capture both of the necessary behaviors of PIFO queues: their scheduling behavior and admission control. We introduce PACKS, an approximate PIFO scheduler that addresses this problem. PACKS runs on top of a set of priority queues and uses packet-rank information and queue-occupancy levels during enqueue to determine whether to admit each incoming packet and to which queue it should be mapped. We fully implement PACKS in P4 and evaluate it on real workloads. We show that PACKS better approximates PIFO than state-of-the-art approaches. Specifically, PACKS reduces the rank inversions by up to 7× and 15× with respect to SP-PIFO and AIFO, and the number of packet drops by up to 60% compared to SP-PIFO. Under pFabric ranks, PACKS reduces the mean FCT across small flows by up to 33% and 2.6×, compared to SP-PIFO and AIFO. We also show that PACKS runs at line rate on existing hardware (Intel Tofino).}
 }
 
 @inproceedings{quicksand-nsdi25,
@@ -80,7 +103,8 @@ selected ={yes}
   year          = "2024",
   abbr          = "IMC",
   code          = "https://github.com/SichangHe/internet\_route\_verification",
-  url           = "https://github.com/SichangHe/internet\_route\_verification/releases/tag/imc-camera-ready"
+  url           = "https://github.com/SichangHe/internet\_route\_verification/releases/tag/imc-camera-ready",
+  slides        = "https://github.com/SichangHe/internet_route_verification/releases/tag/imc24-slides"
 }
 
 @InProceedings{namyar2024metaopt,
