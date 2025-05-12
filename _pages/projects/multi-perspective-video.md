@@ -1,7 +1,7 @@
 ---
-title: "NSL Lab - Research"
+title: "NSL - Research"
 layout: textlay
-excerpt: "NSL Lab -- Research"
+excerpt: "NSL -- Research"
 sitemap: false
 permalink: /projects/multi-perspective-video/
 ---
