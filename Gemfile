@@ -19,4 +19,6 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'jekyll-redirect-from'
+    gem 'csv'
+    gem 'observer'
 end

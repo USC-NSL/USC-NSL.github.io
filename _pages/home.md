@@ -30,28 +30,44 @@ Founded in 2002, our laboratory conducts research on the design and implementati
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Fresco_Fawad.png" alt="Slide 1" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Xiao_FireLoc.png" alt="Slide 1" />
+            </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Rajrup_KinectStream.png" alt="Slide 2" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Rajrup_KinectStream.png" alt="Slide 2" />
+            </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Jane_Sage.png" alt="Slide 3" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Yao_Cosmic.png" alt="Slide 3" />
+            </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Fawad_CarMap.png" alt="Slide 4" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Christina_RECAP.png" alt="Slide 4" />
+            </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Weiwu_Pedestrian.png" alt="Slide 5" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Fawad_CarMap.png" alt="Slide 5" />
+            </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Fawad_Netdriving.png" alt="Slide 6" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Shaoyu_AMoE.png" alt="Slide 6" />
+            </div>
         </div>
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Jianfeng_Galleon.png" alt="Slide 7" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Weiwu_Pedestrian.png" alt="Slide 7" />
+            </div>
         </div>
         <div class="item">
-           <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/josh_tree_of_life.png" alt="Slide 8" />
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Coulson_Granular.png" alt="Slide 8" />
+            </div>
        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">

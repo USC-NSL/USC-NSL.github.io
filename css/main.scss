@@ -4,6 +4,18 @@
 @import "bootstrap";
 @import "fontawesome";
 
+/* For carousel dynamic image size { */
+#carousel div.carousel-inner {
+  div.item {
+    div.img-box {
+      display: flex;
+      justify-content: center;
+      aspect-ratio: 1.8296856194957942; /* From legacy images */
+    }
+  }
+}
+/* } */
+
 //--- Added by Ramesh
 // Colors
 $red-color:           #FF3636 !default;
