@@ -242,6 +242,17 @@ current-students:
       email: sichangh@usc.edu
       github: https://github.com/SichangHe
 
+  - name: <a href="https://yizhuoliang.github.io/">Yizhuo Liang (Coulson)</a>
+    lastname: Liang
+    photo: Coulson/coulson.jpg
+    info: PhD Student
+    advisor:
+      - Seo Jin Park
+    social:
+      website: https://yizhuoliang.github.io/
+      email: yizhuoli@usc.edu
+      github: https://github.com/yizhuoliang
+
 visitor:
 
   # Past Visitors
