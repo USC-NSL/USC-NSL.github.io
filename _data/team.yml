@@ -59,7 +59,7 @@ current-students:
       - Harsha V. Madhyastha
     social:
       linkedin: https://www.linkedin.com/in/huanchen-sun-3378a3229/
-  
+
   - name: Shaoyu Wang
     lastname: Wang
     photo: Default/bio-photo.jpg
@@ -263,6 +263,18 @@ current-students:
       email: zihaofen@usc.edu
       linkedin: https://www.linkedin.com/in/zihaofeng2001/
       google-scholar: https://scholar.google.com/citations?user=vNF1jiUAAAAJ&hl=en
+
+  - name: <a href="https://usc-nsl.github.io/people/mahdi-alizadeh/">Mahdi Alizadeh</a>
+    lastname: Alizadeh
+    photo: Mahdi/aliz.jpg
+    info: PhD Student
+    advisor:
+      - Ramesh Govindan
+    social:
+      website: https://usc-nsl.github.io/people/mahdi-alizadeh/
+      email: malizade@usc.edu
+      github: https://github.com/alizmhdi
+      linkedin: https://www.linkedin.com/in/mahdi-alizade-8680a0204/
 
 visitor:
 
