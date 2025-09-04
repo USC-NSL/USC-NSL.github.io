@@ -252,6 +252,17 @@ current-students:
       website: https://yizhuoliang.github.io/
       email: yizhuoli@usc.edu
       github: https://github.com/yizhuoliang
+  - name: <a href="https://zihaofeng.com/">Zihao Feng</a>
+    lastname: Feng
+    photo: Zihao/zihao.jpg
+    info: PhD Student
+    advisor:
+      - Ramesh Govindan
+    social:
+      website: https://zihaofeng.com/
+      email: zihaofen@usc.edu
+      linkedin: https://www.linkedin.com/in/zihaofeng2001/
+      google-scholar: https://scholar.google.com/citations?user=vNF1jiUAAAAJ&hl=en
 
 visitor:
 
