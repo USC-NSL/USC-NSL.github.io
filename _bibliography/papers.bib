@@ -1,3 +1,90 @@
+@InProceedings{	  zenith25,
+  author	= {Namyar, Pooria and Ghavidel, Arvin and Zhang, Mingyang and
+		  Madhyastha, Harsha V. and Ravi, Srivatsan and Wang, Chao
+		  and Govindan, Ramesh},
+  title		= {ZENITH: Towards A Formally Verified Highly-Available
+		  Control Plane},
+  booktitle	= {Proceedings of the ACM SIGCOMM 2025 Conference},
+  year		= 2025,
+  series	= {SIGCOMM '25},
+  pages		= {409–433},
+  address	= {New York, NY, USA},
+  publisher	= {Association for Computing Machinery},
+  isbn		= 9798400715242,
+  url		= {https://doi.org/10.1145/3718958.3750533},
+  doi		= {10.1145/3718958.3750533},
+  abstract	= {Today, large-scale software-defined networks use
+		  microservice-based controllers. Bugs in these controllers
+		  can reduce network availability by making the data plane
+		  state inconsistent with the high-level intent. To recover
+		  from such inconsistencies, modern controllers periodically
+		  reconcile the state of all the switches with the desired
+		  intent. However, periodic reconciliation limits the
+		  availability and performance of the network at scale. We
+		  introduce Zenith, a microservice-based controller that
+		  avoids inconsistencies by design rather than always relying
+		  on recovery mechanisms. We have formally verified Zenith's
+		  specifications and have proved that it ensures the network
+		  state will eventually be consistent with intent. We
+		  automatically generate Zenith's code from its specification
+		  to minimize the likelihood of errors in the final
+		  implementation. Zenith's guarantees and abstractions also
+		  enable developers to independently verify SDN applications
+		  and ensure end-to-end safety and correctness. Zenith
+		  resolves inconsistencies 5\texttimes{} faster than today's
+		  designs and significantly improves availability.},
+  numpages	= 25,
+  keywords	= {software defined networking, formal methods,
+		  availability},
+  topics	= {dcn},
+  abbr		= {SIGCOMM},
+  selected	= {true},
+  location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
+}
+
+@InProceedings{	  firefly25,
+  author	= {Namyar, Pooria and Li, Yuliang and Wang, Weitao and
+		  Dukkipati, Nandita and Yap, Kk and Gong, Junzhi and Chen,
+		  Chen and Gao, Peixuan and Ray, Devdeep and Kumar, Gautam
+		  and Ma, Yidan and Govindan, Ramesh and Vahdat, Amin},
+  title		= {Firefly: Scalable, Ultra-Accurate Clock Synchronization
+		  for Datacenters},
+  booktitle	= {Proceedings of the ACM SIGCOMM 2025 Conference},
+  year		= 2025,
+  series	= {SIGCOMM '25},
+  pages		= {434–452},
+  address	= {New York, NY, USA},
+  publisher	= {Association for Computing Machinery},
+  isbn		= 9798400715242,
+  url		= {https://doi.org/10.1145/3718958.3750502},
+  doi		= {10.1145/3718958.3750502},
+  abstract	= {Cloud-based financial exchanges require sub-10ns
+		  device-to-device clock synchronization accuracy while
+		  adhering to Coordinated Universal Time (UTC). Existing
+		  clock sync techniques struggle to meet this demand at scale
+		  and are vulnerable to clock drift, jitter, and path
+		  asymmetries. Firefly, a software-driven datacenter clock
+		  sync system, scalably, cost-effectively, and reliably
+		  achieves very high clock sync accuracy. It employs a
+		  distributed consensus algorithm on a random overlay graph
+		  to rapidly converge to a common time while applying gradual
+		  adjustments to device hardware clocks. To realize
+		  consistent sync-to-UTC (external sync) across devices while
+		  maintaining a stable device-to-device internal sync,
+		  Firefly uses a novel technique, layered synchronization,
+		  that decouples internal and external syncs. In a
+		  248-machine Clos network, Firefly achieves sub-10ns
+		  device-to-device and ≤1μs device-to-UTC sync, and is
+		  resilient to time server failure and unstable clocks.},
+  numpages	= 19,
+  topics	= {dcn},
+  abbr		= {SIGCOMM},
+  selected	= {true},
+  keywords	= {clock synchronization, financial exchange, UTC
+		  synchronization, path asymmetry, distributed consensus},
+  location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
+}
+
 @inproceedings{yan2025hyperflux,
   author={Yan, Yibo and Park, Seo Jin},
   title = {Towards Microsecond-Scale VM Core Provisioning Agility on Serverless Platforms},
