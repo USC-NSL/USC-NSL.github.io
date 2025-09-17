@@ -5,6 +5,10 @@ permalink: /people/christina-shin/
 sitemap: false
 excerpt: "Personal website of Christina"
 ---
+
+<meta http-equiv="refresh" content="0; url=https://christina-shin.github.io/">
+<p>If you are not redirected automatically, <a href="https://christina-shin.github.io/">click here</a>.</p>
+
 {%- assign data = site.data.people -%}
 {%- assign member = data.christina -%}
 
