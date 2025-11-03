@@ -1,6 +1,6 @@
 ---
 title: "NSL Lab - Pooria"
-permalink: /people/pooria-namyar/
+permalink: /people/pooria/
 redirect_from:
  - /people/namyar/
  - /people/pooria-namyar/
