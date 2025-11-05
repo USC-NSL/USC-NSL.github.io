@@ -1,3 +1,28 @@
+@inproceedings{zhu2025toward,
+  title={Toward Better Efficiency vs. Fidelity Tradeoffs in Web Archives},
+  author={Zhu, Jingyuan Zhu and Sun, Huanchen and Madhyastha, Harsha V},
+  year={2025},
+  booktitle={ACM SIGCOMM Internet Measurement Conference},
+  abstract={Operators of web archives have two options for how to crawl pages
+	  from the web. Browser-based dynamic crawlers capture all of the
+		  resources on every page, but incur high compute overheads. Static
+		  browserless crawlers are more lightweight, but miss page resources
+		  which are fetched only when scripts are executed. In this paper, we
+		  make the case that a web archive does not have to make a binary
+		  choice between dynamic or static crawling. Instead, by using a
+		  browser for a carefully chosen small subset of crawls, an archive
+		  can significantly improve its ability to serve statically crawled
+		  pages with high fidelity. First, we show how to reuse crawled
+		  resources, both across pages and across multiple crawls of the same
+		  page over time. Second, by leveraging a dynamic crawl of a page, we
+		  show that subsequent static crawls of the page can be augmented to
+		  fetch resources without executing the scripts which request them. We
+		  estimate that, as long as 8.5\% of page crawls use a browser, an
+		  archive can serve roughly 98\% of the remaining statically crawled
+		  pages without any loss in fidelity, up from 55\% without our
+		  techniques.}
+}
+
 @InProceedings{	  zenith25,
   author	= {Namyar, Pooria and Ghavidel, Arvin and Zhang, Mingyang and
 		  Madhyastha, Harsha V. and Ravi, Srivatsan and Wang, Chao
@@ -38,7 +63,7 @@
 		  availability},
   topics	= {dcn},
   abbr		= {SIGCOMM},
-  selected	= {true},
+  selected	= {yes},
   location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
 }
 
@@ -79,7 +104,6 @@
   numpages	= 19,
   topics	= {dcn},
   abbr		= {SIGCOMM},
-  selected	= {true},
   keywords	= {clock synchronization, financial exchange, UTC
 		  synchronization, path asymmetry, distributed consensus},
   location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
@@ -94,6 +118,28 @@
   address = {Seoul, Republic of Korea},
   url = {https://nsl.usc.edu/files/papers/yan_hyperflux_2025.pdf},
   abbr={APSys},
+}
+
+@inproceedings{yao2025cosmic,
+  title={Cosmic: Cost-Effective Support for Cloud-Assisted 3D Printing},
+  author={Yao, Yuan and He, Chuan and Okwudire, Chinedum and Madhyastha, Harsha V},
+  booktitle={2025 USENIX Annual Technical Conference},
+  pages={73--88},
+  year={2025},
+  url={https://www.usenix.org/system/files/atc25-yao.pdf},
+  abstract={In this paper, we consider a new workload for which serverless
+	  platforms are well-suited: the execution of a 3D printer controller in
+		  the cloud. This workload is qualitatively different from those
+		  considered in prior work due to the stringent timing requirements.
+		  Our measurements on popular serverless platforms reveal
+		  millisecond-level overheads that impair the timely execution of the
+		  example control algorithm we consider. To mitigate the impact of
+		  these overheads, we judiciously partition the execution of the
+		  algorithm across a set of serverless functions and exploit timely
+		  speculation. Our evaluations on AWS Lambda show that, for 30 diverse
+		  print jobs, Cosmic is able to ensure the timely execution of the
+		  controller while reducing cost by 2.8x–3.5x compared to other
+		  approaches.}
   selected = {yes},
 }
 
@@ -153,7 +199,7 @@ booktitle={Proceedings of the 30th Annual International Conference on Mobile Com
 year={2024},
 abbr={MobiCom},
 abstract={On-vehicle 3D sensing technologies, such as LiDARs and stereo cameras, enable a novel capability, 3D traffic reconstruction. This produces a volumetric video consisting of a sequence of 3D frames capturing the time evolution of road traffic. 3D traffic reconstruction can help trained investigators reconstruct the scene of an accident. In this paper, we describe the design and implementation of RECAP, a system that continuously and opportunistically produces 3D traffic reconstructions from multiple vehicles. RECAP builds upon prior work on point cloud registration, but adapts it to settings with minimal point cloud overlap (both in the spatial and temporal sense) and develops techniques to minimize error and computation time in multi-way registration. On-road experiments and trace-driven simulations show that RECAP can, within minutes, generate highly accurate reconstructions that have 2× or more lower errors than competing approaches.},
-selected ={yes}
+selected={yes}
 }
 
 @inproceedings{namyar2024learning,
@@ -239,7 +285,8 @@ selected ={yes}
   url = 	 {https://www.usenix.org/conference/nsdi24/presentation/namyar-finding},
   publisher = 	 {USENIX Association},
   month = 	 apr,
-  selected = 	 {yes}}
+  selected = 	 {yes}
+}
 
 @inproceedings{nsdi24-ldb,
 	author = {Inho Cho and Seo Jin Park and Ahmed Saeed and Mohammad Alizadeh and Adam Belay},
