@@ -162,21 +162,6 @@ current-students:
       email: cshin956@usc.edu
       github: https://github.com/christina-shin
 
-  - name: Sulagna Mukherjee
-    lastname: Mukherjee
-    photo: Sulagna/sulagna.jpg
-    info: PhD Student
-    start: Aug 2017
-    advisor:
-      - Barath Raghavan
-    education:
-      - B.Tech from <a href="https://iem.edu.in/">Institute of Engineering and Management (IEM), Kolkata</a>.
-    social:
-      google-scholar: https://scholar.google.co.in/citations?user=EoL8Ih4AAAAJ&hl=en
-      linkedin: https://www.linkedin.com/in/sulagnamukherjee/
-      website: https://usc-nsl.github.io/people/sulagna-mukherjee/
-      email: sulagna@usc.edu
-
   - name: Yibo Yan
     lastname: Yan
     photo: yibo/yibo.jpg
