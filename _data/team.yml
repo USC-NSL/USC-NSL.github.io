@@ -78,22 +78,6 @@ current-students:
       - Ramesh Govindan
     social:
 
-  - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
-    lastname: Fu
-    photo: Xiao/xiao.jpg
-    info: PhD Student
-    start: Feb 2019
-    advisor:
-      - Barath Raghavan
-    education:
-      - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
-    social:
-      twitter: https://twitter.com/xiaolovestree
-      linkedin: https://www.linkedin.com/in/xiao-fu-462822142/
-      github: https://github.com/fxdawnn
-      website: https://fxdawnn.github.io/
-      email: fuxiao@usc.edu
-
   - name: <a href="https://usc-nsl.github.io/people/rajrup-ghosh/">Rajrup Ghosh</a>
     lastname: Ghosh
     photo: Rajrup/rajrup.jpg
@@ -127,23 +111,6 @@ current-students:
       github: https://github.com/chunyuxia
       website: https://usc-nsl.github.io/people/chunyu-xia/
       email: chunyuxi@usc.edu
-
-  - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
-    lastname: Namyar
-    photo: Pooria/pooria.jpg
-    info: PhD Student
-    start: Aug 2019
-    advisor:
-      - Ramesh Govindan
-    education:
-      - B.Sc. from <a href="https://en.sharif.edu/">Sharif University of Technology</a>.
-    social:
-      twitter: https://twitter.com/PooriaNamyar
-      linkedin: https://www.linkedin.com/in/pooria-namyar/
-      github: https://github.com/PooriaNamyar
-      website: https://nsl.usc.edu/people/pooria-namyar/
-      google-scholar: https://scholar.google.com/citations?user=nUfxSRkAAAAJ&hl=en
-      email: namyar@usc.edu
 
   - name: <a href="https://christina-shin.github.io">Christina Shin</a>
     lastname: Shin
@@ -247,6 +214,17 @@ current-students:
       email: zihaofen@usc.edu
       linkedin: https://www.linkedin.com/in/zihaofeng2001/
       google-scholar: https://scholar.google.com/citations?user=vNF1jiUAAAAJ&hl=en
+
+  - name: Junzhou He
+    lastname: He
+    photo: Default/bio-photo.jpg
+    info: PhD Student
+    start: Aug 2025
+    advisor:
+      - Seo Jin Park
+    social:
+
+  
 
 visitor:
 
