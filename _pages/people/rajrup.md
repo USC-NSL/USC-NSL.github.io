@@ -37,10 +37,12 @@ excerpt: "Personal website of Rajrup"
 <p>I am a Ph.D. student in <a href="http://nsl.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My primary research interests are in areas of <b>Volumetric Video</b>, <b>AR/VR Streaming</b>, <b>Edge+Cloud Computing</b> and <b>Systems for ML</b>.</p>
 <p>Prior to joining USC, I completed my Masters in Computational Science at the <a href="http://cds.iisc.ac.in">Department of Computational and Data Sciences (CDS)</a>, <a href="https://www.iisc.ac.in">Indian Institute of Science (IISc), Bangalore</a>. I was advised by <a href="http://cds.iisc.ac.in/faculty/simmhan">Prof. Yogesh Simmhan</a> at <a href="https://dream-lab.in/">DREAM:Lab</a>.</p>
 
+<p style="font-size: 1.4em; background-color: #ffebcd;"><b>Looking for Postdoctoral position starting Summer/Fall 2026. Please reach out if interested!</b></p>
+
 ## Work Experience
 
 <p>
-<em>Graduate Research Assistant (Aug 2019 - present)</em><br>
+<em>Graduate Research Assistant (Aug 2019 - May 2026 (Exp.))</em><br>
 Department of Computer Science, University of Southern California.<br>
 </p>
 
@@ -64,6 +66,10 @@ Samsung R&D Institute India, Bangalore.<br>
 
 ## Teaching Experience
 
+<p>
+<em>Teaching Assistant at USC</em><br>
+<b>Course:</b> CSCI 353 - Internetworking, Fall 2025, <b>Instructor:</b> <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>
+</p>
 <p>
 <em>Teaching Assistant at USC</em><br>
 <b>Course:</b> <a href="https://drive.google.com/file/d/1l2-jZawdV2FZ4Q1pmCkLtvplA6DK9DUa/view?usp=sharing">CS 551/651: Advanced Computer Networks, Spring 2022</a>, <b>Instructor:</b> <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>
