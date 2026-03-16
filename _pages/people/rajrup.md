@@ -37,7 +37,7 @@ excerpt: "Personal website of Rajrup"
 <p>I am a Ph.D. student in <a href="http://nsl.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My primary research interests are in areas of <b>Volumetric Video</b>, <b>AR/VR Streaming</b>, <b>Edge+Cloud Computing</b> and <b>Systems for ML</b>.</p>
 <p>Prior to joining USC, I completed my Masters in Computational Science at the <a href="http://cds.iisc.ac.in">Department of Computational and Data Sciences (CDS)</a>, <a href="https://www.iisc.ac.in">Indian Institute of Science (IISc), Bangalore</a>. I was advised by <a href="http://cds.iisc.ac.in/faculty/simmhan">Prof. Yogesh Simmhan</a> at <a href="https://dream-lab.in/">DREAM:Lab</a>.</p>
 
-<p style="font-size: 1.4em; background-color: #ffebcd;"><b>Looking for Postdoctoral position starting Summer/Fall 2026. Please reach out if interested!</b></p>
+<p style="font-size: 1.4em; background-color: #ffebcd;"><b>Looking for a Postdoctoral/Industry position starting Summer/Fall 2026. Please reach out if I seem fit!</b></p>
 
 ## Work Experience
 
