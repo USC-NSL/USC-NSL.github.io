@@ -6,7 +6,7 @@ sitemap: false
 excerpt: "Personal website of Mahdi"
 ---
 {%- assign data = site.data.people -%}
-{%- assign member = data.pooria -%}
+{%- assign member = data.mahdi -%}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="22%" style="float: left" />
@@ -33,8 +33,8 @@ excerpt: "Personal website of Mahdi"
 
 ## Sketch
 
-<p>I am a Ph.D. student in the <a href="https://cs.usc.edu/" data-type="URL" data-id="https://cs.usc.edu/">CS department</a> at the <a href="https://www.usc.edu/">University of Southern California</a>. I am currently a member of <a href="https://nsl.usc.edu/">Networked Systems Lab</a> and very fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>.
-<p>Before joining USC, I completed my B.Sc. in <a href="http://ce.sharif.edu/~web/en/">Computer Engineering</a> at the <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> in 2025.
+I am a Ph.D. student in the <a href="https://cs.usc.edu/" data-type="URL" data-id="https://cs.usc.edu/">CS department</a> at the <a href="https://www.usc.edu/">University of Southern California</a>. I am currently a member of <a href="https://nsl.usc.edu/">Networked Systems Lab</a> and very fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>.
+Before joining USC, I completed my B.Sc. in <a href="http://ce.sharif.edu/~web/en/">Computer Engineering</a> at the <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> in 2025.
 
 
 ## Work Experience
