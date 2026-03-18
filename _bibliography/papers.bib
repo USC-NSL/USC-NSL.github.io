@@ -1,3 +1,183 @@
+@article{livo,
+  author = {Ghosh, Rajrup and Shin, Christina Suyong and Zhang, Lei and Ye, Muyang and Jin, Tao and Madhyastha, Harsha V. and Netravali, Ravi and Ortega, Antonio and Rao, Sanjay and Rowe, Anthony and Govindan, Ramesh},
+  title = {LiVo: Toward Bandwidth-adaptive Fully-Immersive Volumetric Video Conferencing},
+  year = {2025},
+  issue_date = {December 2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {3},
+  number = {CoNEXT4},
+  url = {https://doi.org/10.1145/3768981},
+  doi = {10.1145/3768981},
+  abstract = {Volumetric video allows users 6 degrees of freedom (6-DoF) in viewing continuously evolving scenes in 3D. Given broadband speeds today, volumetric video conferencing will soon be feasible. Even so, these scenes will need to be compressed, and compression will need to adapt to variations in bandwidth availability. Existing 3D compression techniques cannot adapt to bandwidth availability, are slow, and utilize bandwidth inefficiently, so they don't scale well to large scene descriptions. LiVo achieves low-latency and large-scene two-way conferencing by maximally leveraging existing 2D video infrastructure, including compression standards, rate-adaptive codecs, and real-time transport protocols. To achieve high quality, LiVo must carefully compose scenes from multiple cameras into multiple streams, encode scene geometry in a novel way, adapt to and apportion available bandwidth dynamically between streams to ensure high reconstruction quality, and cull content outside the receiver's field of view to reduce information sent into the network. These novel contributions enable LiVo to outperform the state-of-the-art by over 20\% in objective quality. In a user study, LiVo achieves a mean opinion score of 4.1, while other approaches achieve significantly lower values.},
+  journal = {Proc. ACM Netw.},
+  month = nov,
+  articleno = {34},
+  numpages = {25},
+  keywords = {bandwidth adaptation, conferencing, volumetric video},
+  abbr = {CoNEXT},
+  code = {https://github.com/USC-NSL/LiVo},
+}
+
+@inproceedings{splatpose,
+  author = {Pang, Weiwu and Ghosh, Rajrup and Yang, Jiawei and Wei, Ziyu and Leong, Branden and Wang, Yue and Govindan, Ramesh},
+  title = {SplatPose: On-Device Outdoor AR Pose Estimation Using Gaussian Splatting},
+  year = {2025},
+  isbn = {9798400720352},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3746027.3755709},
+  doi = {10.1145/3746027.3755709},
+  abstract = {Outdoor AR applications on mobile devices need accurate estimates for the pose of the device. In this paper, we develop SplatPose, a novel pose estimation technique that uses a data-driven 3D modeling technique called Gaussian Splatting. SplatPose uses a trained Gaussian Splatting model to render an image at an estimated device location, then matches features with the camera image to estimate pose. \% Because this matching can be fast, SplatPose can, in theory, estimate pose entirely on a mobile device, while existing approaches cannot. To this end, SplatPose trains Gaussian Splatting models to be robust to appearance changes, thereby improving accuracy. It also incorporates a novel fast renderer to improve rendering speed. Using an AR pose estimation benchmark dataset, we show that SplatPose outperforms the state-of-the-art in terms of accuracy, and is up to an order of magnitude faster on a mobile device.},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages = {11899–11908},
+  numpages = {10},
+  keywords = {augmented reality, gaussian splatting, outdoor pose estimation},
+  location = {Dublin, Ireland},
+  series = {MM '25},
+  abbr = {ACM MM}
+}
+
+@inproceedings{zhu2025toward,
+  author = {Zhu, Jingyuan and Sun, Huanchen and Madhyastha, Harsha V.},
+  title = {Toward Better Efficiency vs. Fidelity Tradeoffs in Web Archives},
+  year = {2025},
+  isbn = {9798400718601},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3730567.3764507},
+  doi = {10.1145/3730567.3764507},
+  abstract = {Operators of web archives have two options for how to crawl pages from the web. Browser-based dynamic crawlers capture all of the resources on every page, but incur high compute overheads. Static browserless crawlers are more lightweight, but miss page resources which are fetched only when scripts are executed. In this paper, we make the case that a web archive does not have to make a binary choice between dynamic or static crawling. Instead, by using a browser for a carefully chosen small subset of crawls, an archive can significantly improve its ability to serve statically crawled pages with high fidelity. First, we show how to reuse crawled resources, both across pages and across multiple crawls of the same page over time. Second, by leveraging a dynamic crawl of a page, we show that subsequent static crawls of the page can be augmented to fetch resources without executing the scripts which request them. We estimate that, as long as 8.9\% of page crawls use a browser, an archive can serve roughly 99\% of the remaining statically crawled pages without any loss in fidelity, up from 55\% without our techniques.},
+  booktitle = {Proceedings of the 2025 ACM Internet Measurement Conference},
+  pages = {1025–1031},
+  numpages = {7},
+  keywords = {web archives, web crawlers, javascript},
+  location = {USA},
+  series = {IMC '25},
+  abbr={IMC},
+}
+
+@InProceedings{	  zenith25,
+  author	= {Namyar, Pooria and Ghavidel, Arvin and Zhang, Mingyang and
+		  Madhyastha, Harsha V. and Ravi, Srivatsan and Wang, Chao
+		  and Govindan, Ramesh},
+  title		= {ZENITH: Towards A Formally Verified Highly-Available
+		  Control Plane},
+  booktitle	= {Proceedings of the ACM SIGCOMM 2025 Conference},
+  year		= 2025,
+  series	= {SIGCOMM '25},
+  pages		= {409–433},
+  address	= {New York, NY, USA},
+  publisher	= {Association for Computing Machinery},
+  isbn		= 9798400715242,
+  url		= {https://doi.org/10.1145/3718958.3750533},
+  doi		= {10.1145/3718958.3750533},
+  abstract	= {Today, large-scale software-defined networks use
+		  microservice-based controllers. Bugs in these controllers
+		  can reduce network availability by making the data plane
+		  state inconsistent with the high-level intent. To recover
+		  from such inconsistencies, modern controllers periodically
+		  reconcile the state of all the switches with the desired
+		  intent. However, periodic reconciliation limits the
+		  availability and performance of the network at scale. We
+		  introduce Zenith, a microservice-based controller that
+		  avoids inconsistencies by design rather than always relying
+		  on recovery mechanisms. We have formally verified Zenith's
+		  specifications and have proved that it ensures the network
+		  state will eventually be consistent with intent. We
+		  automatically generate Zenith's code from its specification
+		  to minimize the likelihood of errors in the final
+		  implementation. Zenith's guarantees and abstractions also
+		  enable developers to independently verify SDN applications
+		  and ensure end-to-end safety and correctness. Zenith
+		  resolves inconsistencies 5\texttimes{} faster than today's
+		  designs and significantly improves availability.},
+  numpages	= 25,
+  keywords	= {software defined networking, formal methods,
+		  availability},
+  topics	= {dcn},
+  abbr		= {SIGCOMM},
+  selected	= {yes},
+  location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
+}
+
+@InProceedings{	  firefly25,
+  author	= {Namyar, Pooria and Li, Yuliang and Wang, Weitao and
+		  Dukkipati, Nandita and Yap, Kk and Gong, Junzhi and Chen,
+		  Chen and Gao, Peixuan and Ray, Devdeep and Kumar, Gautam
+		  and Ma, Yidan and Govindan, Ramesh and Vahdat, Amin},
+  title		= {Firefly: Scalable, Ultra-Accurate Clock Synchronization
+		  for Datacenters},
+  booktitle	= {Proceedings of the ACM SIGCOMM 2025 Conference},
+  year		= 2025,
+  series	= {SIGCOMM '25},
+  pages		= {434–452},
+  address	= {New York, NY, USA},
+  publisher	= {Association for Computing Machinery},
+  isbn		= 9798400715242,
+  url		= {https://doi.org/10.1145/3718958.3750502},
+  doi		= {10.1145/3718958.3750502},
+  abstract	= {Cloud-based financial exchanges require sub-10ns
+		  device-to-device clock synchronization accuracy while
+		  adhering to Coordinated Universal Time (UTC). Existing
+		  clock sync techniques struggle to meet this demand at scale
+		  and are vulnerable to clock drift, jitter, and path
+		  asymmetries. Firefly, a software-driven datacenter clock
+		  sync system, scalably, cost-effectively, and reliably
+		  achieves very high clock sync accuracy. It employs a
+		  distributed consensus algorithm on a random overlay graph
+		  to rapidly converge to a common time while applying gradual
+		  adjustments to device hardware clocks. To realize
+		  consistent sync-to-UTC (external sync) across devices while
+		  maintaining a stable device-to-device internal sync,
+		  Firefly uses a novel technique, layered synchronization,
+		  that decouples internal and external syncs. In a
+		  248-machine Clos network, Firefly achieves sub-10ns
+		  device-to-device and ≤1μs device-to-UTC sync, and is
+		  resilient to time server failure and unstable clocks.},
+  numpages	= 19,
+  topics	= {dcn},
+  abbr		= {SIGCOMM},
+  keywords	= {clock synchronization, financial exchange, UTC
+		  synchronization, path asymmetry, distributed consensus},
+  location	= {S\~{a}o Francisco Convent, Coimbra, Portugal}
+}
+
+@inproceedings{yan2025hyperflux,
+  author={Yan, Yibo and Park, Seo Jin},
+  title = {Towards Microsecond-Scale VM Core Provisioning Agility on Serverless Platforms},
+  booktitle = {16th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys '25)},
+  year = {2025},
+  isbn = {979-8-4007-1572-3},
+  address = {Seoul, Republic of Korea},
+  url = {https://nsl.usc.edu/files/papers/yan_hyperflux_2025.pdf},
+  abbr={APSys},
+}
+
+@inproceedings{yao2025cosmic,
+  title={Cosmic: Cost-Effective Support for Cloud-Assisted 3D Printing},
+  author={Yao, Yuan and He, Chuan and Okwudire, Chinedum and Madhyastha, Harsha V},
+  booktitle={2025 USENIX Annual Technical Conference},
+  pages={73--88},
+  year={2025},
+  url={https://www.usenix.org/system/files/atc25-yao.pdf},
+  abstract={In this paper, we consider a new workload for which serverless
+	  platforms are well-suited: the execution of a 3D printer controller in
+		  the cloud. This workload is qualitatively different from those
+		  considered in prior work due to the stringent timing requirements.
+		  Our measurements on popular serverless platforms reveal
+		  millisecond-level overheads that impair the timely execution of the
+		  example control algorithm we consider. To mitigate the impact of
+		  these overheads, we judiciously partition the execution of the
+		  algorithm across a set of serverless functions and exploit timely
+		  speculation. Our evaluations on AWS Lambda show that, for 30 diverse
+		  print jobs, Cosmic is able to ensure the timely execution of the
+		  controller while reducing cost by 2.8x–3.5x compared to other
+		  approaches.},
+  selected = {yes},
+  abbr={ATC},
+}
+
 @inproceedings{liang2025granular,
   title={Granular Resource Demand Heterogeneity},
   author={Liang, Yizhuo and Govindan, Ramesh and Park, Seo Jin},
@@ -54,7 +234,7 @@ booktitle={Proceedings of the 30th Annual International Conference on Mobile Com
 year={2024},
 abbr={MobiCom},
 abstract={On-vehicle 3D sensing technologies, such as LiDARs and stereo cameras, enable a novel capability, 3D traffic reconstruction. This produces a volumetric video consisting of a sequence of 3D frames capturing the time evolution of road traffic. 3D traffic reconstruction can help trained investigators reconstruct the scene of an accident. In this paper, we describe the design and implementation of RECAP, a system that continuously and opportunistically produces 3D traffic reconstructions from multiple vehicles. RECAP builds upon prior work on point cloud registration, but adapts it to settings with minimal point cloud overlap (both in the spatial and temporal sense) and develops techniques to minimize error and computation time in multi-way registration. On-road experiments and trace-driven simulations show that RECAP can, within minutes, generate highly accurate reconstructions that have 2× or more lower errors than competing approaches.},
-selected ={yes}
+selected={yes}
 }
 
 @inproceedings{namyar2024learning,
@@ -140,7 +320,8 @@ selected ={yes}
   url = 	 {https://www.usenix.org/conference/nsdi24/presentation/namyar-finding},
   publisher = 	 {USENIX Association},
   month = 	 apr,
-  selected = 	 {yes}}
+  selected = 	 {yes}
+}
 
 @inproceedings{nsdi24-ldb,
 	author = {Inho Cho and Seo Jin Park and Ahmed Saeed and Mohammad Alizadeh and Adam Belay},

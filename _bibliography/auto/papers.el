@@ -1,7 +1,20 @@
+;; -*- lexical-binding: t; -*-
+
 (TeX-add-style-hook
  "papers"
  (lambda ()
    (LaTeX-add-bibitems
+    "zenith25"
+    "firefly25"
+    "yan2025hyperflux"
+    "liang2025granular"
+    "namyar2025mitigation"
+    "alcoz2025packs"
+    "quicksand-nsdi25"
+    "shin2024recap"
+    "namyar2024learning"
+    "karimi2024Xplain"
+    "he2024rpslyzer"
     "namyar2024metaopt"
     "nsdi24-ldb"
     "hotos-quicksand"
