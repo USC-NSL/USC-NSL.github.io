@@ -1,3 +1,23 @@
+@inproceedings{ddb26,
+  author = {Yan, Yibo and He, Junzhou and Park, Seo Jin},
+  title = {DDB: Source-Level Interactive Debugging for Distributed Applications},
+  booktitle = {Proceedings of the 32nd ACM Symposium on Operating Systems Principles},
+  year = {2026},
+  month = oct,
+  series = {SOSP '26},
+  abbr = {SOSP},
+}
+
+@inproceedings{fluidep26,
+  author = {Liang, Yizhuo and Wang, Shaoyu and Song, Jaeyong and Zhou, Yanqi and Kim, Geon-Woo and He, Guangrong and Park, Seo Jin},
+  title = {Democratizing MoE LLM Decoding via Barrier-Free Expert Parallelism},
+  booktitle = {Proceedings of the 32nd ACM Symposium on Operating Systems Principles},
+  year = {2026},
+  month = oct,
+  series = {SOSP '26},
+  abbr = {SOSP},
+}
+
 @article{livo,
   author = {Ghosh, Rajrup and Shin, Christina Suyong and Zhang, Lei and Ye, Muyang and Jin, Tao and Madhyastha, Harsha V. and Netravali, Ravi and Ortega, Antonio and Rao, Sanjay and Rowe, Anthony and Govindan, Ramesh},
   title = {LiVo: Toward Bandwidth-adaptive Fully-Immersive Volumetric Video Conferencing},
@@ -185,6 +205,9 @@
   year={2025},
   abbr={HotOS},
   selected = {yes},
+  url = {https://doi.org/10.1145/3713082.3730379},
+  doi = {10.1145/3713082.3730379},
+  abstract = {Granular resource heterogeneity refers to the phenomenon in which small computational units within or across applications exhibit distinct resource usage patterns. Traditional resource management in shared clusters lumps monolithic applications into coarse categories, overlooking smaller execution phases that differ in resource demands. We introduce hiresperf, an extensible profiler that investigates resource usage at 10-microsecond intervals attributed to each function invocation, with a low overhead. We show that using hiresperf for either offline analysis or real-time monitoring can exhibit the granular resource heterogeneity without manually decomposing applications for profiling. Armed with the fine-grained insights, resource managers, batch schedulers, and serverless runtimes can proactively schedule and migrate tasks to minimize interference and boost utilization at the same time.},
 }
 
 @inproceedings{namyar2025mitigation,
@@ -224,7 +247,9 @@
 	booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
 	year = {2025},
 	abbr = {NSDI},
-	selected = {yes}
+	selected = {yes},
+	url = {https://www.usenix.org/conference/nsdi25/presentation/ruan},
+	abstract = {Datacenters today waste CPU and memory, as resources demanded by applications often fail to match the resources available on machines. This leads to stranded resources because one resource that runs out prevents placing additional applications that could consume the other resources. Unusable stranded resources result in reduced utilization of servers, and wasted money and energy. Quicksand is a new framework and runtime system that unstrands resources by providing developers with familiar, high-level abstractions (e.g., data structures, batch computing). Internally Quicksand decomposes them into resource proclets, granular units that each primarily consume resources of one type. Inspired by recent granular programming models, Quicksand decouples consumption of resources as much as possible. It splits, merges, and migrates resource proclets in milliseconds, so it can use resources on any machine, even if available only briefly. Evaluation of our prototype with four applications shows that Quicksand uses stranded resources effectively; that Quicksand reacts to changing resource availability and demand within milliseconds, increasing utilization; and that porting applications to Quicksand requires moderate effort.}
 }
 
 @inproceedings{shin2024recap,
