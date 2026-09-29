@@ -69,14 +69,14 @@ current-students:
       - Seo Jin Park
     social:
 
-  - name: Arvin Ghavidel
-    lastname: Ghavidel
+  - name: <a href="https://usc-nsl.github.io/people/arvin-ghavidel/">Arvin Ghavidel</a>
     photo: Default/bio-photo.jpg
     info: PhD Student
     start: Jan 2023
     advisor:
       - Ramesh Govindan
     social:
+      email: aghavide@usc.edu
 
   - name: <a href="https://usc-nsl.github.io/people/rajrup-ghosh/">Rajrup Ghosh</a>
     lastname: Ghosh
