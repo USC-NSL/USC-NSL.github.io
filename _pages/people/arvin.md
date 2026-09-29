@@ -55,7 +55,7 @@ excerpt: "Personal website of Pooria"
 
 <div class="publications">
 
-{% bibliography -f people/pooria_selected%}
+{% bibliography -f people/arvin_selected%}
 
 </div>
 
@@ -63,6 +63,6 @@ excerpt: "Personal website of Pooria"
 
 <div class="publications">
 
-{% bibliography -f people/pooria_additional%}
+{% bibliography -f people/arvin_additional%}
 
 </div>
