@@ -78,24 +78,6 @@ current-students:
     social:
       email: aghavide@usc.edu
 
-  - name: <a href="https://usc-nsl.github.io/people/rajrup-ghosh/">Rajrup Ghosh</a>
-    lastname: Ghosh
-    photo: Rajrup/rajrup.jpg
-    info: PhD Student
-    start: Aug 2019
-    advisor:
-      - Ramesh Govindan
-    education:
-      - M.Tech from <a href="https://iisc.ac.in/">Indian Institute of Science (IISc), Bangalore</a>.
-      - B.E from <a href="https://www.iiests.ac.in/">Indian Institute of Engineering Science and Technology (IIEST), Shibpur</a>.
-    social:
-      twitter: https://twitter.com/rajrup_tweets
-      linkedin: https://www.linkedin.com/in/rajrup-ghosh/
-      github: https://github.com/Rajrup
-      website: https://usc-nsl.github.io/people/rajrup-ghosh/
-      google-scholar: https://scholar.google.co.in/citations?user=9M6G_S0AAAAJ&hl=en
-      email: rajrupgh@usc.edu
-
   - name: <a href="https://usc-nsl.github.io/people/chunyu-xia/">Chunyu Xia</a>
     lastname: Xia
     photo: Chunyu/chunyu.jpg
@@ -111,23 +93,6 @@ current-students:
       github: https://github.com/chunyuxia
       website: https://usc-nsl.github.io/people/chunyu-xia/
       email: chunyuxi@usc.edu
-
-  - name: <a href="https://christina-shin.github.io">Christina Shin</a>
-    lastname: Shin
-    photo: Christina/christina.jpg
-    info: PhD Student
-    start: Aug 2019
-    email: cshin956@usc.edu
-    advisor:
-      - Ramesh Govindan
-    education:
-      - B.S. and M.S. from <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University, Seoul</a>.
-    social:
-      google-scholar: https://scholar.google.com/citations?user=6VwIYFwAAAAJ&hl=en
-      linkedin: https://linkedin.com/in/christina-sy-shin
-      website: https://christina-shin.github.io
-      email: cshin956@usc.edu
-      github: https://github.com/christina-shin
 
   - name: Yibo Yan
     lastname: Yan
@@ -162,24 +127,6 @@ current-students:
       website: https://usc-nsl.github.io/people/haodong-wang/
       email: haodongw@usc.edu
       github: https://github.com/Daaohame
-
-  - name: Yuan Yao
-    lastname: Yao
-    photo: Yuan/yuan.jpg
-    info: PhD Student
-    start: Aug 2023
-    email: yyao3787@usc.edu
-    advisor:
-      - Harsha V. Madhyastha
-    education:
-      - M.S. from the University of Michigan
-      - B.S. from the University of Michigan & Shanghai Jiao Tong University
-    social:
-      google-scholar: https://scholar.google.com/citations?user=HNChI8YAAAAJ&hl=en
-      linkedin: https://www.linkedin.com/in/yuanyaocs/
-      website:
-      email: yyao3787@usc.edu
-      github: https://github.com/item084
 
   - name: <a href="https://sichanghe.github.io/">Sichang He (Steven)</a>
     lastname: He
