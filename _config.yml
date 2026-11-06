@@ -10,12 +10,21 @@ title: NSL
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   USC NSL Website.
-url: https://usc-nsl.github.io
+url: https://nsl.usc.edu
 baseurl:
 
 include:
   - .htaccess
   - _pages
+
+# Repo files that must not be published on the site.
+exclude:
+  - README.md
+  - bin/
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
 
 sass:
   sass_dir: _sass
@@ -41,21 +50,10 @@ kramdown:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-imagemagick
-  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
-  - jemoji
-
-# Extras
-github: [metadata]
+  - jekyll-redirect-from
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
