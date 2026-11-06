@@ -25,11 +25,17 @@ Founded in 2002, our laboratory conducts research on the design and implementati
         <li data-target="#carousel" data-slide-to="5"></li>
         <li data-target="#carousel" data-slide-to="6"></li>
         <li data-target="#carousel" data-slide-to="7"></li>
+        <li data-target="#carousel" data-slide-to="8"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
+            <div class="img-box">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Zihao_TNAS.png" alt="TNAS (NeurIPS 2026)" />
+            </div>
+        </div>
+        <div class="item">
             <div class="img-box">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/Xiao_FireLoc.png" alt="Slide 1" />
             </div>
